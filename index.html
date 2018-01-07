@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zw-tw">
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function(){
+        $("#slider").responsiveSlides({
+            auto:true,
+            speed:500,
+            namespace:"callbacks",
+            pager:true,
+        });
+    });
+</script>    
+<meta name="Author" content="Dora Chen(陳)">
+<meta name="keywords" content="Star's, 星星, 手工餅乾, 餅乾,手工, 超好吃,美食, 點心,下午茶,伴手禮,情人節禮物,聖誕節禮物,生日禮物">
+<meta name="description" content="Star's Handmade Cookies星星手工餅乾提供線上購物、宅配到府的服務。大受好評推薦的手工喜餅、可愛手工彌月禮盒、企業贈禮、伴手禮、年節禮盒。 提供客製喜卡及彌月卡。經典的木盒設計，多種手工餅乾口味組合，是送禮的首選。 詩特莉手工餅乾禮盒替您傳遞最溫暖溫馨的祝福，讓收到禮盒的人都能感受到獨一無二的誠摯心意。">
+
+</head>
+
+<body>
+<div class="slider">
+    <div class="callbacks_container">
+        <ul class="rslides" id="slider">
+        <li>
+            <img src="images/home/9.png" alt=""/>
+        </li>
+        <li>
+            <img src="images/home/1.png" alt=""/>
+        </li>
+        <li>
+            <img src="images/home/6.png" alt=""/>
+        </li>
+        </ul>    
+    </div>
+</div>
+    <div class="header">
+        <div class="header-top">
+            <div class="logo">
+                <h1><a href="index.html"><img src="images/home/logo.png">Star's Handmade Cookies</a></h1>
+            </div>
+            <div class="top-nav">
+                <span class="menu"></span>
+                <ul>
+                    <li class="active"><a href="index.html" class="scroll">HOME</a></li>
+                    <li><a href="about.html" class="scroll" data-hover="ABOUT">ABOUT</a></li>
+                    <li><a href="prodtssweet.html" class="scroll" data-hover="PRODUCTS">PRODUCTS</a></li>
+                    <li><a href="news.html" class="scroll" data-hover="NEWS">NEWS</a></li>
+                    <li><a href="googlemap.html" class="scroll" data-hover="STORES">STORES</a></li>                    
+                    <li><a href="message.html" class="scroll" data-hover="CONTACT">CONTACT</a></li>                         
+                    
+                </ul>
+                <script>
+                    $("span.menu").click(function(){
+                        $(".top-nav ul").slideToggle(500, function(){
+                        });
+                        
+                    })
+                </script>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
